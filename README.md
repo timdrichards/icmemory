@@ -2,7 +2,7 @@
 
 A memory diagram visualizer, checker, and grader
 
-# MHz Overview
+# MHz Example File Description
 
 The file always begins with 2 objects. The first object is the stack and, in
 this example, contains 2 frames. The first frame is for a function named “Bob”
