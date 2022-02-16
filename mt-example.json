@@ -1,0 +1,153 @@
+[
+  {
+    "boxes": [
+      {
+        "Label": "Bob",
+        "X": 0,
+        "Y": 21.54609489440918,
+        "Height": 90,
+        "ID": "STACK0",
+        "Width": 720
+      },
+      {
+        "Label": "BobJr",
+        "X": 0,
+        "Y": 133.09218978881836,
+        "Height": 90,
+        "ID": "STACK1",
+        "Width": 720
+      }
+    ],
+    "Label": "Stack",
+    "X": 0,
+    "Y": 0,
+    "Height": 900,
+    "ID": "ROOTSTACK",
+    "Width": 720
+  },
+
+  {
+    "boxes": [
+      {
+        "Label": "Blob",
+        "X": 248,
+        "Y": 152,
+        "Height": 90,
+        "ID": "HEAP2",
+        "Width": 72
+      },
+      {
+        "Label": "BiggerBlob",
+        "X": 151,
+        "Y": 429,
+        "Height": 90,
+        "ID": "HEAP3",
+        "Width": 72
+      }
+    ],
+    "Label": "Heap",
+    "X": 721,
+    "Y": 0,
+    "Height": 900,
+    "ID": "ROOTHEAP",
+    "Width": 720
+  },
+
+  [
+    {
+      "Fields": [
+        {
+          "Label": "prim_var",
+          "X": 5,
+          "Y": 5,
+          "Height": 15.54609489440918,
+          "ID": "Primitive0",
+          "Width": 60
+        },
+        {
+          "Label": "ref_var",
+          "X": 5,
+          "Y": 20.54609489440918,
+          "Height": 15.54609489440918,
+          "ID": "Reference0",
+          "Width": 48
+        }
+      ],
+      "ID": "STACK0"
+    },
+    {
+      "Fields": [
+        {
+          "Label": "ref_var",
+          "X": 5,
+          "Y": 5,
+          "Height": 15.54609489440918,
+          "ID": "Reference1",
+          "Width": 48,
+          "Edge": "HEAP2"
+        },
+        {
+          "Label": "more_ref_var",
+          "X": 5,
+          "Y": 20.54609489440918,
+          "Height": 15.54609489440918,
+          "ID": "Reference2",
+          "Width": 87
+        }
+      ],
+      "ID": "STACK1"
+    },
+    {
+      "Fields": [
+        {
+          "Label": "pointer",
+          "X": 5,
+          "Y": 5,
+          "Height": 15.54609489440918,
+          "ID": "Reference3",
+          "Width": 50
+        },
+        {
+          "Label": "number",
+          "X": 5,
+          "Y": 20.54609489440918,
+          "Height": 15.54609489440918,
+          "ID": "Primitive1",
+          "Width": 53
+        }
+      ],
+      "ID": "HEAP2"
+    },
+    {
+      "Fields": [
+        {
+          "Label": "pointer2",
+          "X": 5,
+          "Y": 5,
+          "Height": 15.54609489440918,
+          "ID": "Reference4",
+          "Width": 58,
+          "Edge": "HEAP2"
+        },
+        {
+          "Label": "self_ref",
+          "X": 5,
+          "Y": 20.54609489440918,
+          "Height": 15.54609489440918,
+          "ID": "Reference5",
+          "Width": 52,
+          "Edge": "HEAP3"
+        },
+        {
+          "Label": "prim",
+          "X": 5,
+          "Y": 36.09218978881836,
+          "Height": 15.54609489440918,
+          "ID": "Primitive2",
+          "Width": 34
+        }
+      ],
+      "ID": "HEAP3"
+    }
+  ]
+]
